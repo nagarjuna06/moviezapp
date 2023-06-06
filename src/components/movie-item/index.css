@@ -1,0 +1,21 @@
+.movie-item{
+    text-align: center;
+    width: 300px;
+    border: 2px solid #999;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+}
+.movie-item:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.movie-item img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.movie-item p{
+    color: blue;
+    font-weight: bold;
+}
